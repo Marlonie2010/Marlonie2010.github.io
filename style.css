@@ -3,31 +3,35 @@ body{
 }
 
 /* Main Content*/
+.MainContent{
+    padding-top: 4vh;
+    padding-bottom: 7vh;
+    min-height: 91vh;
+}
 
 /* menu */
-.menu{
-    position: absolute;
+.Menu{
+    position: fixed;
     top: 0.0%;
     left: 0.0%;
     
     background-color: gray;
     width: 100%;
-    height: 5%;
 }
 
 .Menu_UnderCatogory{
-    padding-top: 0.75%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-    height: 75%;
+    position: relative;
+    padding-top: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
     float: left;
+    height: 3vh;
     
-    border: 1px solid gray;
     background-color: gray;
     
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 2vh;
 }
 .Menu_UnderCatogory:hover{
     background-color: red;
@@ -38,3 +42,15 @@ body{
 .Menu_UnderCatogory.a:visited{
     color: white;
 }
+
+/* footer */
+.Footer{
+    position: fixed;
+    bottom: 0.0%;
+    left: 0.0%; 
+    width: 100%;
+    height: 6vh;
+    
+    background-color: gray;
+}
+
