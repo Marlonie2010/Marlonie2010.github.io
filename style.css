@@ -1,3 +1,40 @@
 body{
 
 }
+
+/* Main Content*/
+
+/* menu */
+.menu{
+    position: absolute;
+    top: 0.0%;
+    left: 0.0%;
+    
+    background-color: gray;
+    width: 100%;
+    height: 5%;
+}
+
+.Menu_UnderCatogory{
+    padding-top: 0.75%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    height: 75%;
+    float: left;
+    
+    border: 1px solid gray;
+    background-color: gray;
+    
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.Menu_UnderCatogory:hover{
+    background-color: red;
+}
+.Menu_UnderCatogory.a{
+    color: white;
+}
+.Menu_UnderCatogory.a:visited{
+    color: white;
+}
