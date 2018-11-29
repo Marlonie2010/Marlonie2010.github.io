@@ -9,6 +9,21 @@ body{
     min-height: 90vh;
 }
 
+.PictureLeft{
+    float: left;
+}
+.PictureRight{
+    float: right;
+}
+
+.ContentTextCenter{
+    text-align: center;
+    font-size: 2vh;
+}
+.ContentTextLeft{
+    font-size: 2vh;
+}
+
 /* menu */
 .Menu{
     position: fixed;
