@@ -24,6 +24,22 @@ body{
     font-size: 2vh;
 }
 
+/* Main Menu*/
+.Index_Cat{
+
+    float: left;
+    width: 42vw;
+    margin-left: 3vw;
+    height: 20vh;
+    background-color: gray;
+    
+    text-align: center;
+    font-size: 8vh;
+    box-shadow: 5px 10px #000;
+    text-shadow: 2px 2px #111;
+}
+
+
 /* menu */
 .Menu{
     position: fixed;
