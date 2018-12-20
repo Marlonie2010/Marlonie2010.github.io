@@ -35,10 +35,10 @@ body{
     
     text-align: center;
     font-size: 8vh;
-    box-shadow: 5px 10px #000;
+    box-shadow: 5px 10px #0002;
     text-shadow: 2px 2px #111;
+    color:  #e6e6e6;
 }
-
 
 /* menu */
 .Menu{
